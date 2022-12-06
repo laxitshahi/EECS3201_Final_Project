@@ -116,7 +116,7 @@ end
 					VGA_G <= 4'b1011;
 					VGA_B <= 4'b0111;
 				end
-				else if (column > 200 && column < 250 && row > (0 + count + 2) && row < (20 + count + 2)) //colliion box5
+				else if (column > 200 && column < 250 && row > (0 + count + 2) && row < (20 + count + 2)) //large box5
 				begin
 					VGA_R <= 4'b0000;
 					VGA_G <= 4'b1111;
